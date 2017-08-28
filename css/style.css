@@ -1,0 +1,30 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+
+  background: url("../img/bitcointhegioi.jpg") no-repeat center center fixed ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+ 
+  font-family: 'Titillium Web', sans-serif;
+ 
+}
+
+.centered {
+  color:#A6B304;
+   position: fixed;
+  top: 16%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  font-size:2rem;
+}
+
+
